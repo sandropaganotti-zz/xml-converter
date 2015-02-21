@@ -10,7 +10,7 @@ especially useful when working with a framework that does not support XML parsin
 
 The best way to install this library is using bower: 
 ```
-bower install 
+bower install git@github.com:sandropaganotti/xml-converter.git
 ```
 
 To enable this library this line of code needs to be added to your root 
@@ -18,7 +18,7 @@ ServiceWorker, if you don't have one just create an empty sw.js file in the
 root of your project:
 
 ```
-importScripts();
+importScripts('bower_components/xml-converter/xml-converter.js');
 ```
 
 To install the root ServiceWorker (if haven't done it already) you can use this
